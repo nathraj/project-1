@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container conrainer-main">
+        <div class="row">
+          <div class="col-4"></div>
+            <div class="col-4 cols-4 reg">
+                <div class="form">
+                    <h3 style="text-align: center;">Registration </h1><br>
+                    <form action=""> 
+                        <input type="text" 
+                            id="name" 
+                            placeholder="Name"
+                            class="form-control" 
+                            class="input"><br>
+
+                        <input type="email" 
+                            id="name"placeholder="Email" 
+                            class="form-control"  
+                            class="input"><br>
+                     
+                        <input type="password" 
+                            id="email" placeholder="*********" 
+                            class="form-control" 
+                            class="input"> <br>
+
+                        <input type="text" 
+                            id="city" 
+                            placeholder="City"
+                            class="form-control" 
+                            class="input"><br>
+                        <input type="text" 
+                            id="country" 
+                            placeholder="Country"
+                            class="form-control" 
+                            class="input"><br>
+
+                            <button type="button" class="btn btn-danger  " onclick="register()" > Register</button> 
+                            <a style ="margin-left: 110px;"href="login.html" class="register btn btn-primary btn-lg "> Login</b></a>
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="col-4"  ></div>
+            </div>
+            </div>
+        </div>
+       
+         
+    </div>
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+         <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+              apiKey: "AIzaSyCEEmQnqylmsxJyL7UsqEVx1j1RNFvNwzY",
+              authDomain: "hackathon-83483.firebaseapp.com",
+              databaseURL: "https://hackathon-83483-default-rtdb.firebaseio.com",
+              projectId: "hackathon-83483",
+              storageBucket: "hackathon-83483.appspot.com",
+              messagingSenderId: "279128604320",
+              appId: "1:279128604320:web:1be0ef16348f36fc7f13c5"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+          </script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

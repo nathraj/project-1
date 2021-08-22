@@ -1,0 +1,44 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+}
+.conrainer-main{
+height: 640px; 
+background-image: url(./img/BUR.jpg);
+background-repeat: no-repeat; 
+background-size: cover;
+}
+
+.row{
+display: flex;
+}
+
+.cols-4{
+    height:450px; 
+    background-color: #060501b0;
+    color: white; 
+    margin: 110px 50px 50px 50px; 
+    padding: 50px;
+} 
+
+.input{
+    background-color: #cacaca";
+}
+.login-btn{
+  margin-left: 100px;
+    
+    
+}
+
+.register{
+    font-size: 15px;
+    margin-left:50px; 
+    color: rgb(255, 255, 255);
+}
+.reg{
+    height: 520px;
+}
